@@ -26,7 +26,7 @@ export class Blobs extends Component {
             <tr>
                 <td>{blob.name}</td>
                   <td>
-                      <img src={blob.data} width="300" height="auto" />
+                      <img src={blob.data} alt="" width="300" height="auto" />
                 </td>
             </tr>
           )}
